@@ -9,9 +9,9 @@ background: #a9fffd; /* Safari */
   padding: 0;
 }
 
-*
-::before
-::after {
+
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -91,6 +91,7 @@ nav {
 
 .close i{
   color: #eb648c;
+  padding-left: 20rem
 }
 
 .nav-list {
